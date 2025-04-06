@@ -2,7 +2,7 @@
 
 solucion <- function() {
   # Asigna valores a 'a' y 'b' de manera que el valor asignado a 's' sea 100
-  a <- 20 # asigna valor aquí
+  a <- 180 # asigna valor aquí
   b <- 80 # asigna valor aquí
   s <- a-b
   return(s)
