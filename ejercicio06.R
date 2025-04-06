@@ -4,12 +4,13 @@ solucion <- function() {
   # Ordena las asignaciones de manera que se devuelva un valor de 's' igual a 43
   s <- NULL
   a <- NULL
-  b <- NULL
-  s <- a+b
+  b <- NULL 
   a <- 8
-  s <- s+a
   b <- 20
-  s <- s+5
+  s <- a+b
   a <- 10
+  s <- s+a
+  s <- s+5
   return(s)
 }
+
